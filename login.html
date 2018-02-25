@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login || UPES-CSI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/maincss.css">
+ <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+<link rel="shortcut icon" href="favicon.png">
+<script type="application/x-javascript">
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+ </script>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script src="analytics.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a><img src="cm1.png" style="width:70px;height:70px;"><span style="font-family:Times New Roman">Code Master</span></a>
+			</div>
+			<div class="header-right">
+			<a class="account" href="index.php"><i class="fa fa-home " style="padding-right:5px;"></i>Home</a>
+      
+           </div>
+			
+		</div>
+	</div>
+	 <section>
+			<div id="page-wrapper" class="sign-in-wrapper" >
+				<div class="graphs">
+					<div class="sign-in-form">
+
+						<div class="signin">
+							<h2>Log-In</h2>
+							<form action="logincheck.php" method="post">
+							<div class="log-input">
+								<div class="log-input-left">
+								   <input type="text" name="email" class="user" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}"/>
+								</div>
+								
+							<div class="log-input">
+								<div class="log-input-left">
+								   <input type="password" name = "password" class="lock" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"/>
+								</div>
+								
+							</div>
+	                       <div class="g-recaptcha" data-sitekey="6Ldd7SQUAAAAAB_QloWZIIGEcbRDvqIYHe0dhzov"></div>
+                           <div style="margin-top:150px;">
+                           <input type="submit"  value="Log in" /></div>
+	
+						</form>	 
+						</div>
+						<div class="new_people">
+							
+							<a href="register.html">Register Now!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+	<div class="bottom-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <p>©UPES-CSI. All Rights Reserved</p>
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <ul class="social-media">
+                    <li class="social-icons"><a href="https://www.facebook.com/upescsi" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li class="social-icons"><a href="https://www.instagram.com/upescsi" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li class="social-icons"><a href="https://www.twitter.com/upescsi" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    
+                </ul>
+			</div>
+               
+		</div>
+	</div>
+	</div>
+			
+	
+</body>
+</html>

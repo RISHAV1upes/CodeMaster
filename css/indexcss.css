@@ -1,0 +1,73 @@
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn {
+       width: 100%;
+    }
+
+}
+.reg{
+
+	    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+		color:white;
+
+}
+td:nth-child(2) {
+    padding-right: 20px;
+}​
+
+#bootstrap-overrides input#e1.email{
+	width:300px;
+}
+#signin{
+	positon:relative;
+	top:30px;
+}
+#bootstrap-overrides animate-form{
+	position:relative;
+	top:10px;
+}
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.green
+  {
+      background-image: linear-gradient(to bottom, #2ec866, #29b35b);
+      border-color: #088837;
+    border-bottom-color: #64874b;
+    background-color: #29b35b;
+
+  }
+#bootstrap-overrides .section-container
+{
+    padding:0px;
+}
